@@ -1,12 +1,23 @@
-master
-======
-
 Style Spy: The CSS Detective
+============================
 
-Usage
+Provide a means to match all elements for a collection of DOMs, and return a report of all matches.  
+
+In other words, using an arbritray selector like .content-section ul > li:first-child, .footer, return a results list of every element on your ENTIRE website that matches this.
+
+Unused selectors that are defined in style sheets. Show which sheet defines it.
+
+Show elements who have classnames with no definition in any style sheet.
+
+Frequency of each defined and used classes.
+
+Show which style sheets contribute to the selector.
+
+Different style sheet revisions. Basically, show elements who have a different style description (classname, for example) or different 'other' style between two style revisions.
+
+
+usage
 ======
-
-sspy - style spy
 
 %> sspy --url=www.example.com --css=".foobar > li:first-child" --format="" -e (show elems)
 
