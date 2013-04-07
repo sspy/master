@@ -60,4 +60,4 @@ where those stylesheet locations contain rules that affect at least one property
 214c44a37 third-party-styles.css application-imports.css  
 dfc25a65c application.css application-imports.css main.css
 
-In this example, these are the git versions that correspond to the change of at least 1 property of the matched elements, in this case every button on the entire website.  So maybe on revision 214c44a37, the corners of your buttons were inadvertently rounded by an included third-party stylesheet.  In addition a change that you made to the form padding moved the button to the right 10px.
+In this example, these are the git versions that correspond to the change of at least one property of the matched elements, in this case every button on the entire website.  So maybe on revision 214c44a37, the corners of your buttons were inadvertently rounded by an included third-party stylesheet.  In addition a change that you made to the form padding moved the button to the right 10px.
