@@ -1,12 +1,12 @@
 Style Spy: The CSS Detective
 ============================
 
-sspy is a command line utility that attempts to solve some common issues during CSS development.  When a website starts to become larger and more complex, the style rules and files that contribute and affect the site become more opaque.  It is sometimes difficult to tell, for example, if a change to a stylesheet will have unintended consequences on 'some' page because the selector matches unintended elements.  Style spy is kind of a Swiss Army utility for styles.
+**sspy** is a command line utility that attempts to solve some common issues during CSS development.  When a website starts to become larger and more complex, the style rules and files that contribute and affect the site become more opaque.  It is sometimes difficult to tell, for example, if a change to a stylesheet will have unintended consequences on 'some' page because the selector matches unintended elements.  Style spy is kind of a Swiss Army utility for styles.
 
 Capabilities
 ============
 
-**Provide a means to match all elements for a collection of DOMs, and return a report of all matches.**
+**Provide a means to match elements by a CSS selector for a collection of pages and return a report of all matches.**
 
 In other words, using an arbritray selector like, e.g., '.foobar > li:first-child', return a results list of every element on your ENTIRE website that matches this.
 
