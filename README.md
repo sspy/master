@@ -31,7 +31,6 @@ www.example.com/foo/barfly.php
 
 1.  &lt;li&gt;flapjacks&lt;/li&gt;
 2.  &lt;li&gt;fruity two shoes&lt;/li&gt;
-3.  
 
 ... etc..
 
