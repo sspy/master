@@ -26,18 +26,29 @@ www.example.com/foo/barfy.php
 
 1. *Same as above.. the HTML that matches the selector enumerated in a list.*
 
-**Locate selectors throughout your stylesheets, inline style, etc, that do not match any element on the entire site.**
+**Locate selectors throughout your stylesheets, inline styles, etc, that do not match any element on the entire site.**
 
-**Show elements who have classnames with no definition in any style sheet.  Be able to detect class names that are used as poor man reference handles in linked javascript.**
+%> sspy --url=www.example.com --find-unused-style
+
+**Show elements who have class names with no definition in any style sheet.  Be able to detect class names that are used as poor man reference handles in linked javascript.**
+
+%> sspy --url=www.example.com --find-undef-class
 
 **Frequency of each defined and used classes.  Provide a json stats format as well as a ascii terminal histogram.**
+
+%> sspy --url=www.example.com --histo --output=terminal
+
+td     application.css:line 255  Matched 2344 ***************************
+p      application.css:line 25   Matched 1250 **********
+table  application.css:line 5    Matched  100 ***
+#hdr   application.css:line 2    Matched    1 *
 
 **Show which style sheets contribute to a given arbitrary selector.**
 
 %> sspy --url=www.example.com --css=".foobar > li:first-child" --find-ss
 
-application-imports.css:line 54  
-application-imports.css:line 456
+application-imports.css:line 54  ".foobar { border-co..."
+application-imports.css:line 456 "li { color: red }"
 
 where those stylesheet locations contain rules that affect at least one property of elements that match the given arbitrary selector.
 
