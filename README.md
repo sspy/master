@@ -51,6 +51,7 @@ table  application.css:line 5    Matched  100 +++
 %> sspy --url=www.example.com --css=".foobar > li:first-child" --find-ss
 
 application-imports.css:line 54  ".foobar { border-color..."
+
 application-imports.css:line 456 "li { color: red }"
 
 where those stylesheet locations contain rules that affect at least one property of elements that match the given arbitrary selector.
