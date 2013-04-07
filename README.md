@@ -19,18 +19,18 @@ Matched 23 elements on 11 pages
 
 www.example.com/foo/bar.html
 
-1.  <li>flapjacks</li>
-2.  <li>fruity two shoes</li>
+1.  &lt;li&gt;flapjacks&lt;/li&gt;
+2.  &lt;li&gt;fruity two shoes&lt;/li&gt;
 
 www.example.com/foo/barf.php
 
-1.  <li>flapjacks</li>
-2.  <li>fruity two shoes</li>
+1.  &lt;li&gt;flapjacks&lt;/li&gt;
+2.  &lt;li&gt;fruity two shoes&lt;/li&gt;
 
 www.example.com/foo/barfly.php
 
-1.  <li>flapjacks</li>
-2.  <li>fruity two shoes</li>
+1.  &lt;li&gt;flapjacks&lt;/li&gt;
+2.  &lt;li&gt;fruity two shoes&lt;/li&gt;
 3.  
 
 ... etc..
@@ -55,6 +55,6 @@ where those stylesheet locations contain rules that affect at least 1 property o
 
 56e05fced application.css
 214c44a37 application.css application-imports.css
-dfc25a65c application.css application-imports.css
+dfc25a65c application.css application-imports.css  
 
 In this example, these are the git versions that correspond to the change of at least 1 property of the matched elements, in this case every button on the entire website.  So maybe on revision 214c44a37, the corners of your buttons were inadvertently rounded by an included third-party stylesheet.  In addition a change that you made to the form padding moved the button to the right 10px.
