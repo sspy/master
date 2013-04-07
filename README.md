@@ -6,7 +6,7 @@ sspy is a command line utility that attempts to solve some common issues during 
 Capabilities
 ============
 
-*Provide a means to match all elements for a collection of DOMs, and return a report of all matches.*
+**Provide a means to match all elements for a collection of DOMs, and return a report of all matches.**
 
 In other words, using an arbritray selector like, e.g., '.foobar > li:first-child', return a results list of every element on your ENTIRE website that matches this.
 
@@ -33,13 +33,13 @@ www.example.com/foo/barfly.php
 
 ... etc..
 
-*Locate selectors throughout your stylesheets, inline style, etc, that do not match any element on the entire site.*
+**Locate selectors throughout your stylesheets, inline style, etc, that do not match any element on the entire site.**
 
-*Show elements who have classnames with no definition in any style sheet.  Be able to detect class names that are used as poor man reference handles in linked javascript.*
+**Show elements who have classnames with no definition in any style sheet.  Be able to detect class names that are used as poor man reference handles in linked javascript.*
 
-*Frequency of each defined and used classes.  Provide a json stats format as well as a ascii terminal histogram.*
+**Frequency of each defined and used classes.  Provide a json stats format as well as a ascii terminal histogram.**
 
-*Show which style sheets contribute to a given arbitrary selector.*
+**Show which style sheets contribute to a given arbitrary selector.**
 
 %> sspy --url=www.example.com --css=".foobar > li:first-child" --find-ss
 
@@ -48,7 +48,7 @@ application-imports.css:line 456
 
 where those stylesheet locations contain rules that affect at least one property of elements that match the given arbitrary selector.
 
-*Show the revision of a stylesheet(s) had an affect on a certain collection of elements.*
+**Show the revision of a stylesheet(s) had an affect on a certain collection of elements.**
 
 %> sspy --url=www.example.com --css="button" --show-changes -n=3
 
