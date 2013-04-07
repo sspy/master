@@ -1,19 +1,19 @@
 Style Spy: The CSS Detective
 ============================
 
-Provide a means to match all elements for a collection of DOMs, and return a report of all matches.  
+* Provide a means to match all elements for a collection of DOMs, and return a report of all matches.  
 
 In other words, using an arbritray selector like .content-section ul > li:first-child, .footer, return a results list of every element on your ENTIRE website that matches this.
 
-Unused selectors that are defined in style sheets. Show which sheet defines it.
+* Unused selectors that are defined in style sheets. Show which sheet defines it.
 
-Show elements who have classnames with no definition in any style sheet.
+* Show elements who have classnames with no definition in any style sheet.
 
-Frequency of each defined and used classes.
+* Frequency of each defined and used classes.
 
-Show which style sheets contribute to the selector.
+* Show which style sheets contribute to the selector.
 
-Different style sheet revisions. Basically, show elements who have a different style description (classname, for example) or different 'other' style between two style revisions.
+* Different style sheet revisions. Basically, show elements who have a different style description (classname, for example) or different 'other' style between two style revisions.
 
 
 usage
@@ -53,21 +53,6 @@ www.example.com/foo/barf.php   [show elements]
 www.example.com/foo/barfly.php [show elements]
 
 ...
-
-
-Future:
-
-Unused selectors that are defined in style sheets. Show which sheet defines it.
-
-Show elements who have classnames with no definition in any style sheet.
-
-Frequency of each defined and used classes.
-
-Show which style sheets contribute to the selector.
-
-Different style sheet revisions. Basically, show elements who have a different style description (classname, for example) or different 'other' style between two style revisions.
-
-
 
 
 
