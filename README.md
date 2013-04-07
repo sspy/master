@@ -43,6 +43,7 @@ td     application.css:line 255  Matched 2344 +++++++++++++++++++++++++++++
 p      application.css:line 25   Matched 1250 ++++++++++++++
 
 table  application.css:line 5    Matched  100 +++
+
 .hdr   application.css:line 2    Matched    1 +
 
 **Show which style sheets contribute to a given arbitrary selector.**
