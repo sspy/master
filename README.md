@@ -18,20 +18,13 @@ Matched 23 elements on 11 pages
 
 www.example.com/foo/bar.html
 
-1.  &lt;li&gt;flapjacks&lt;/li&gt;
-2.  &lt;li&gt;fruity two shoes&lt;/li&gt;
+1.  &lt;li&gt;first list item on bar.html&lt;/li&gt;
+2.  &lt;li&gt;first item from some other UL on the same page that has class foobar&lt;/li&gt;
+3. *The HTML for some other list item that matches*
 
-www.example.com/foo/barf.php
+www.example.com/foo/barfy.php
 
-1.  &lt;li&gt;flapjacks&lt;/li&gt;
-2.  &lt;li&gt;fruity two shoes&lt;/li&gt;
-
-www.example.com/foo/barfly.php
-
-1.  &lt;li&gt;flapjacks&lt;/li&gt;
-2.  &lt;li&gt;fruity two shoes&lt;/li&gt;
-
-... etc..
+1. *Same as above.. the HTML that matches enumerated in a list.*
 
 **Locate selectors throughout your stylesheets, inline style, etc, that do not match any element on the entire site.**
 
