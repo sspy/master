@@ -53,45 +53,8 @@ where those stylesheet locations contain rules that affect at least 1 property o
 
 %> sspy --url=www.example.com --css="button" --show-changes -n=3
 
+56e05fced application.css
+214c44a37 application.css application-imports.css
+dfc25a65c application.css application-imports.css
 
-
-======
-
-%> sspy --url=www.example.com --css=".foobar > li:first-child" --format="" -e (show elems)
-
-Matched 23 elements on 11 pages
-
-www.example.com/foo/bar.html
-
-1.  <li>flapjacks</li>
-2.  <li>fruity two shoes</li>
-
-www.example.com/foo/barf.php
-
-1.  <li>flapjacks</li>
-2.  <li>fruity two shoes</li>
-
-www.example.com/foo/barfly.php
-
-1.  <li>flapjacks</li>
-2.  <li>fruity two shoes</li>
-
-...
-
-(on the web)
-
-Matched 23 elements on 11 pages
-
-www.example.com/foo/bar.html   [show elements]
-
-1.  <li>flapjacks</li>
-2.  <li>fruity two shoes</li>
-
-www.example.com/foo/barf.php   [show elements]
-www.example.com/foo/barfly.php [show elements]
-
-...
-
-
-
-
+In this example, these are the git versions that correspond to the change of at least 1 property of the matched elements, in this case every button on the entire website.  So maybe on revision 214c44a37, the corners of your buttons were inadvertently rounded by an included third-party stylesheet.  In addition a change that you made to the form padding moved the button to the right 10px.
