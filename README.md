@@ -3,6 +3,8 @@ Style Spy: The CSS Detective
 
 **sspy** is a command line utility that attempts to help debugging common issues during CSS development.  When a website starts to become larger and more complex, the style rules and files that contribute and affect the site become more opaque.  It is sometimes difficult to tell, for example, if a change to a stylesheet will have unintended consequences on 'some' page because the selector matches unintended elements.  Style spy is kind of a Swiss Army utility for styles.
 
+Homepage: www.sspy.org
+
 Capabilities
 ============
 
